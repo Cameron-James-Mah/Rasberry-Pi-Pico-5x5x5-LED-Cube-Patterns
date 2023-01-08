@@ -2,12 +2,13 @@
 These are patterns for a 5x5x5 LED cube I made with my dad. The LED's are controlled using a method called multiplexing which I will explain its use further in wiring section. The programming was done using micropython.
 
 # Components/Equipment used(This will vary depending on size of cube, microcontroller, etc):
+- Rasberry Pi Pico
 - Copper wire(For forming the frame and connecting columns and layers)
 - 125 LED's(Will obviously depend on the size of the cube)
 - 125 resistors(Don't want to burn out LED's)
 - 5 NPN transistors(toggle a layers connection to ground, will elaborate further in wiring section)
 - 2 shift registers(Need extra GPIO pins)
-- Soler, Soldering iron(Solder LED leads, copper wire, etc)
+- Soldr, Soldering iron(Solder LED leads, copper wire, etc)
 - Other tools depending on how you want to build your cube frame
 
 # Building the cube

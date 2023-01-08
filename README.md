@@ -1,5 +1,5 @@
 # Rasberry-Pi-Pico-5x5x5-LED-Cube-Patterns
-These are patterns for a 5x5x5 LED cube I made with my dad. The LED's are controlled using a method called multiplexing which I will explain its use further in wiring section. The programming was done using micropython.
+These are patterns for a 5x5x5 LED cube I made with my dad. The LED's are controlled using a method called multiplexing. I will explain its use further in wiring section. The programming was done using micropython.
 
 # Components/Equipment used(This will vary depending on size of cube, microcontroller, etc):
 - Rasberry Pi Pico
@@ -8,7 +8,7 @@ These are patterns for a 5x5x5 LED cube I made with my dad. The LED's are contro
 - 125 resistors(Don't want to burn out LED's)
 - 5 NPN transistors(toggle a layers connection to ground, will elaborate further in wiring section)
 - 2 shift registers(Need extra GPIO pins)
-- Soldr, Soldering iron(Solder LED leads, copper wire, etc)
+- Solder, Soldering iron(Solder LED leads, copper wire, etc)
 - Other tools depending on how you want to build your cube frame
 
 # Building the cube
@@ -33,6 +33,7 @@ These are some things we ran into that had us stuck for a long time, in some cas
 - Running out of GPIO's and toggling ground(Neither my dad or I had too much knowledge on circuits so we didn't know about shift registers/transistors or atleast think of how we can use them)
 - LED's burning out(Sometimes when soldering the LED's we suspect they got too hot and just simply burned out)
 - LED BLACK MAGIC?(One thing that had us stumped for probably almost a week was some of the LED's were faulty we think, it would work 2 ways and end up connecting to ground and connecting different columns unexpectedely)
+- LED's of different types require different voltages, we didn't realize that and could not figure out why we could not light up all LED's in a column. Here is a chart for LED color voltages: http://i.imgur.com/P53ECu1.png
 # Conclusion
 
 

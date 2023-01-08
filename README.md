@@ -11,7 +11,7 @@ These are patterns for a 5x5x5 LED cube I made with my dad. The LED's are contro
 - Other tools depending on how you want to build your cube frame
 
 # Building the cube
-
+There are many videos showing different ways of building the frame of an LED cube. We followed one to build our frame(can't remember which video) and I would personally find one that suits you better given the materials/equipment you have to work with.
 
 # Wiring
 To understand the wiring you have to understand basic circuits. I personally had very little knowledge about circuits before doing this project but there isn't much you need to know for this. The first thing to understand is that for an LED to light up it needs to be part of a complete circuit. In other words the LED would need to recieve voltage(not too much and not too little) through its anode(longer lead) and exit through its cathode(shorter lead) and reach ground.
@@ -23,12 +23,15 @@ Once everything up to here is understood, the next logical thing to think is the
 It is important to note that atleast on the rasberry pi pico, you only have 26 GPIO pins. So if you plan to do a 5x5x5 that means 25 GPIO pins for each column. But you will still need 5 more for the transistors. In a case like this where you need more GPIO pins, we need to use shift registers. I think shift registers can very and may have different specs, the one I used was() and it takes 3 inputs(GPIO pins) but gives us 8 outputs giving us a total of 5 extra outputs per shift register. If you are using a rasberry pi aswell, this video is perfect for you: https://www.youtube.com/watch?v=-lEtgzlNSnA. This video explains what shift registers are, how to use them, and gives a code example.
 
 
-#Programming
-
+# Programming
+The programming is pretty simple as long you set things up such that you can reference the GPIO pins in an organized way. For me I had a 2d array to represent an overhead view of all the columns. I had to have small work arounds for the columns connected to the shift registers but it was just one row of columns connected to the shift register in order from left to right on the cube so it was easy to work with. 
 
 
 # Troubleshooting
-
+These are some things we ran into that had us stuck for a long time, in some cases 3+ days:
+- Running out of GPIO's and toggling ground(Neither my dad or I had too much knowledge on circuits so we didn't know about shift registers/transistors or atleast think of how we can use them)
+- LED's burning out(Sometimes when soldering the LED's we suspect they got too hot and just simply burned out)
+- LED BLACK MAGIC?(One thing that had us stumped for probably almost a week was some of the LED's were faulty we think, it would work 2 ways and end up connecting to ground and connecting different columns unexpectedely)
 # Conclusion
 
 

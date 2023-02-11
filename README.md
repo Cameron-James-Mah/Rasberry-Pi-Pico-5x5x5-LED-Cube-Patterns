@@ -32,9 +32,10 @@ The programming is pretty simple as long you set things up such that you can ref
 These are some things we ran into that had us stuck for a long time, in some cases 3+ days:
 - Running out of GPIO's and toggling ground(Neither my dad or I had too much knowledge on circuits so we didn't know about shift registers/transistors or atleast think of how we can use them)
 - LED's burning out(Sometimes when soldering the LED's we suspect they got too hot and just simply burned out)
-- LED BLACK MAGIC?(One thing that had us stumped for probably almost a week was some of the LED's were faulty we think, it would work 2 ways and end up connecting to ground and connecting different columns unexpectedely)
+- LED BLACK MAGIC?(One thing that had us stumped for probably almost a week was some of the LED's were faulty we think, it would work 2 ways and end up grounding out layers when it shouldn't
 - LED's of different types require different voltages, we didn't realize that and could not figure out why we could not light up all LED's in a column. Here is a chart for LED color voltages: http://i.imgur.com/P53ECu1.png
-# Conclusion
+# Demo
+https://youtu.be/EGwMO1GgZVk
 
 
 

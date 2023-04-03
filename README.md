@@ -1,5 +1,5 @@
 # Rasberry-Pi-Pico-5x5x5-LED-Cube-Patterns
-These are patterns for a 5x5x5 LED cube I made with my dad. The LED's are controlled using a method called multiplexing. I will explain its use further in wiring section. The programming was done using micropython.
+These are patterns for a 5x5x5 LED cube. The LED's are controlled using a method called multiplexing. I will explain its use further in wiring section. The programming was done using micropython.
 
 # Components/Equipment used(This will vary depending on size of cube, microcontroller, etc):
 - Rasberry Pi Pico

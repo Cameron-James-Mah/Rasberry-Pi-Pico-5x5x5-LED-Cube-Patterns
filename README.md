@@ -29,7 +29,7 @@ The programming is pretty simple as long you set things up such that you can ref
 
 
 # Troubleshooting
-These are some things we ran into that had us stuck for a long time, in some cases 3+ days:
+These are some things we ran into that had us stuck for a long time:
 - Running out of GPIO's and toggling ground(Neither my dad or I had too much knowledge on circuits so we didn't know about shift registers/transistors or atleast think of how we can use them)
 - LED's burning out(Sometimes when soldering the LED's we suspect they got too hot and just simply burned out)
 - LED BLACK MAGIC?(One thing that had us stumped for probably almost a week was some of the LED's were faulty we think, it would work 2 ways and end up grounding out layers when it shouldn't
